@@ -4,7 +4,7 @@
 # https://aka.ms/yaml
 trigger:- master
 pool:  
-vmImage: 'ubuntu-latest'
+name: 'default'
 steps:- 
 script: echo Hello, world!  
 displayName: 'Run a one-line script'
